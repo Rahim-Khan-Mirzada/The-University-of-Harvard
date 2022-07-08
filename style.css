@@ -1,0 +1,599 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*******************************************************Top Containter**********************************************/
+/*******Background Image*********/
+.harvard {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+
+}
+
+/*******Harvard logo*********/
+
+.logo {
+  width: 10%;
+}
+
+/*******Menu Bar*********/
+.menu {
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 70px;
+
+
+}
+
+
+.menu ul li {
+  display: inline;
+  margin-right: 20px;
+
+}
+
+.menu ul {
+  float: right;
+  margin-top: 20px;
+  margin-right: 60px;
+
+}
+
+.menu ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+
+}
+
+.menu ul li a:hover {
+text-decoration: underline;
+}
+
+
+
+/**********************************************************Middle Container***********************************************/
+
+.middle-container {
+background-color: #EEEEEE;
+width: 100%;
+height: 1700px;
+margin-top: 0;
+
+
+}
+/*******Pic one********/
+.h1 {
+  font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.1px;
+    display: inline;
+
+}
+
+.pic1 {
+  display: inline-block;
+  position: relative;
+  left: 900px;
+}
+
+.quote1 {
+  display: inline-block;
+  position: relative;
+  right: 350px;
+  bottom: 100px;
+
+}
+
+/*******Pic two*********/
+.pic2 {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.h2 {
+  font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.1px;
+    display: inline;
+}
+
+.quote2 {
+  display: inline-block;
+  position: relative;
+  left: 200px;
+}
+
+/*******Pic three*********/
+.pic3 {
+  display: inline-block;
+  position: relative;
+  left: 800px;
+}
+
+.h3 {
+  font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.1px;
+    display: inline;
+}
+.quote3 {
+  display: inline-block;
+  position: relative;
+  right: 400px;
+  bottom: 150px;
+}
+
+
+
+
+
+
+.button1 {
+  background: #df072e;
+  color: white;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  right: 400px;
+  top: 100px;
+  font-size: 16px;
+  border-radius: 80%;
+  font-weight: 500;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+
+.button1:hover {
+  background-color: black;
+}
+
+.buttontext {
+  display: inline-block;
+  position: relative;
+  left: 650px;
+  top: 70px;
+}
+
+
+/**************************************************Bottom1 Container*************************************************/
+
+
+
+.bottom1-container {
+  width: 100%;
+  height: 800px;
+  background-color: black;
+
+}
+
+.bottom1a {
+  width: 700px;
+  height: 200px;
+  background-color: none;
+  position: relative;
+  left: 320px;
+
+}
+
+.bottom1h2 {
+  font-size: 48px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.1px;
+    font-family: 'Gentium Book Plus', serif;
+    color: white;
+    position: absolute;
+    right: 17px;
+}
+
+.bottom1p {
+  color: white;
+
+  position: relative;
+  left: 190px;
+  top: 70px;
+}
+
+/******************************************************Bottom2-container***********************************************/
+
+.bottom2-container {
+  width: 100%;
+  height: 950px;
+  background-color: #EEEEEE;
+}
+
+
+.bottom2-container h2 {
+  font-size: 48px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.1px;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    top: 50px;
+
+}
+
+
+
+/*****General Style For Pictures******/
+.bottom2pic {
+height: auto;
+width: 20%;
+overflow: hidden;
+
+}
+
+.bottom2pic img {
+  width: 100%;
+  display: block;
+  padding: 0;
+  margin: 0;
+  transition: transform 0.5s;
+}
+
+.bottom2pic img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+
+/*****General Style For Buttons******/
+.bottom2button {
+  background: black;
+  color: white;
+  border: none;
+  text-align: center;
+  padding: 0;
+  font-size: 16px;
+  border-radius: 80%;
+  font-weight: 500;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+  opacity: 0.7;
+
+}
+
+.bottom2pic:hover button {
+background-color: white;
+color: black;
+opacity: 1.0;
+}
+/*****General Style For Authors Names******/
+.bottom2pic p{
+float: right;
+position: absolute;
+bottom: 70px;
+left: 35px;
+font-size: 20px;
+color: white;
+font-weight: 400;
+}
+
+.bottom2pic:hover p {
+  text-decoration: underline;
+}
+
+
+/*****Pictures 1 ******/
+.bottom2pic1 {
+  position: relative;
+  top: 70px;
+  left: 200px;
+}
+
+
+
+/*****Pictures 2 ******/
+
+.bottom2pic2 {
+position: relative;
+left: 560px;
+bottom: 250px;
+
+}
+
+/*****Pictures 3 ******/
+
+.bottom2pic3 {
+  position: relative;
+  left: 920px;
+  bottom: 570px;
+}
+
+/*****Pictures 4 ******/
+.bottom2pic4 {
+  position: relative;
+  left: 200px;
+  bottom: 500px;
+}
+
+/*****Pictures 5 ******/
+.bottom2pic5 {
+  position: relative;
+  left: 560px;
+  bottom: 816px;
+}
+
+/*****Pictures 6 ******/
+.bottom2pic6 {
+  position: relative;
+  left: 920px;
+  bottom: 1130px;
+}
+
+
+/******************************************************Bottom3-container***********************************************/
+
+
+.bottom3-container {
+  width: 100%;
+  height: 450px;
+  background-color: black;
+}
+
+.bottom3-container img {
+  position: relative;
+  left: 180px;
+  top: 50px;
+}
+
+.bottom3div1 {
+  height: 250px;
+  width: 42%;
+  border: none;
+  position: relative;
+  left: 700px;
+  bottom: 230px;
+}
+
+.bottom3div1 h2 {
+    color: white;
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 40px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.1px;
+}
+
+.bottom3div1 p {
+  color: white;
+
+}
+
+.bottom3div2 {
+  width: 45%;
+  height: 23%;
+  border: none;
+  position: relative;
+  top: 20px;
+  align-items: center;
+}
+
+.bottom3div2:hover button {
+background-color: white;
+color: black;
+cursor: pointer;
+}
+
+.bottom3div2:hover {
+  cursor: pointer;
+}
+
+.bottom3button {
+background-color: #656f77;
+border: none;
+height: 35px;
+width: 35px;
+border-radius: 80%;
+padding: 0;
+color: white;
+font-weight: 500;
+font-size: 18px;
+position: relative;
+top: 10px;
+transition: 0.2s;
+}
+
+.bottom3div2 p {
+  position: relative;
+  left: 40px;
+  bottom: 30px;
+  font-family: 'Gentium Book Plus', serif;
+}
+
+/******************************************************Bottom4-container***********************************************/
+
+.bottom4-container {
+width: 100%;
+height: 200px;
+background-color: #EEEEEE;
+}
+
+/******************************************************Bottom5-container***********************************************/
+
+.bottom5-container {
+  width: 100%;
+  height: 700px;
+  background-color: #0e0e0e;
+}
+/*****Upper Part******/
+.bottom5div1 {
+  width: 80%;
+  height: 260px;
+
+  position: relative;
+  left: 126px;
+  top: 40px;
+}
+
+.bottom5div1 h3 {
+  color: white;
+  font-size: 30px;
+  font-family: 'Mingzat', serif;
+  position: relative;
+  left: 50px;
+}
+
+.bottom5div1 p {
+  color: white;
+  font-weight: 700;
+    line-height: 1.5;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 13px;
+    text-decoration: underline;
+    transition: 0.2s;
+    display: inline-block;
+
+
+
+
+}
+
+.bottom5div1 p:hover {
+  color: red;
+  cursor: pointer;
+
+}
+
+/********Lower Part*******/
+.bottom5div2 {
+width: 80%;
+height: 300px;
+
+position: relative;
+left: 125px;
+top: 80px;
+
+}
+
+.bottom5div2 h2 {
+color: white;
+font-size: 14px;
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+margin-bottom: 15px;
+}
+
+.paragraph {
+color: #8996a0;
+display: inline-block;
+margin-bottom: 10px;
+font-family: sans-serif;
+font-size: 14px;
+font-weight: 500;
+transition: 0.5s;
+
+}
+
+.paragraph:hover, .socialmedia p:hover {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bottom5div2partleft {
+width: 200px;
+height: 150px;
+
+position: absolute;
+left: 200px;
+text-align: center;
+
+
+}
+
+.bottom5div2partmiddle {
+  width: 200px;
+  height: 150px;
+
+  position: absolute;
+  left: 400px;
+  text-align: center;
+
+}
+
+.bottom5div2partright {
+  width: 200px;
+  height: 150px;
+
+  position: absolute;
+  left: 600px;
+  text-align: center;
+}
+
+
+.bottom5div2partbottom {
+  width: 960px;
+  height: 100px;
+
+  position: absolute;
+  bottom: 0;
+  left: 90px;
+}
+
+.bottom5div2partbottom p {
+color: #8996a0;
+display: inline-block;
+position: absolute;
+left: 20px;
+bottom: 0;
+}
+
+.Clogo:before {
+  content: ' \00A9';
+}
+
+.bottom5div2partbottom img {
+  position: absolute;
+  left: 400px;
+
+}
+
+.socialmedia {
+
+width: 400px;
+height: 20px;
+position: absolute;
+right: 0;
+bottom: 0;
+}
+
+.socialmedia p {
+  margin-right: 10px;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 13px;
+  transition: 0.5s;
+}
